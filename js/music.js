@@ -5,7 +5,7 @@ $(document).ready(function(){
     
 
     $('.open').on('click', function(e){
-        e.preventDefault();
+        //e.preventDefault();
 
         var i = $(this).parent('li').index();
 
@@ -22,22 +22,18 @@ $(document).ready(function(){
         .success(function(data){
             var arr = data.data;
 
-            var link1 = '';
-            var link2 = '';
-            var link3 = '';
-
-
             console.log(data);
             console.log(data.data);
             console.log(arr[i]);
 
             $('.content .inner')
                 .append(
-                    
-                    $('<h2>').text(arr[i].album),
                     $('<div class="pic">').css({backgroundImage : 'url(img/'+arr[i].img+')'}),
+                    $('<h2>').text(arr[i].album),                    
+                    $('<span>').text('Most Popular :'),                    
                     $('<h3>').text(arr[i].title),
                     $('<div class="vid">').html(`<iframe width="560" height="315" src=${arr[i].link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`),
+                    $('<a>').attr('href', arr[i].playlist).text('Listen to Full Album!')
                     
                 )
         })

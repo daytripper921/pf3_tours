@@ -2,33 +2,38 @@
     "data" : [
         {
             "album" : "Boy (1980)",
-            "img" : "u2_1.jpg",
+            "img" : "u2_1_2.jpg",
             "title" : "I Will Follow",
-            "link" : "https://www.youtube.com/embed/g2BqLlVHlWA"
+            "link" : "https://www.youtube.com/embed/g2BqLlVHlWA",
+            "playlist" : "https://www.youtube.com/watch?v=jI9GV3rAOQ4&list=PL0xXGZWysIyY-5bbcpcukTrLCdGCGvjHN&ab_channel=U2-Topic"
         },
         {
             "album" : "The Joshua Tree (1987)",
-            "img" : "u2_2.png",
+            "img" : "u2_2_2.jpg",
             "title" : "With Or Without You",
-            "link" : "https://www.youtube.com/embed/ujNeHIo7oTE"
+            "link" : "https://www.youtube.com/embed/ujNeHIo7oTE",
+            "playlist" : "https://www.youtube.com/watch?v=3FsrPEUt2Dg&list=PLIHqGfTiPiMWRadWXFtaSLGUI953vOTrt&ab_channel=mirabell214"
         },
         {
             "album" : "Achtung Baby (1991)",
-            "img" : "u2_3.png",
+            "img" : "u2_3_2.jpg",
             "title" : "One",
-            "link" : "https://www.youtube.com/embed/ftjEcrrf7r0"
+            "link" : "https://www.youtube.com/embed/ftjEcrrf7r0",
+            "playlist" : "https://www.youtube.com/watch?v=G2mBRUJDGgM&list=PL_PZZm2fi_VookorvBcEsWlOe0sOFsk8i&ab_channel=U2-Topic"
         },
         {
             "album" : "All That You Can't Leave Behind (2000)",
-            "img" : "u2_4.jpg",
+            "img" : "u2_4_2.jpg",
             "title" : "Beautiful Day",
-            "link" : "https://www.youtube.com/embed/co6WMzDOh1o"
+            "link" : "https://www.youtube.com/embed/co6WMzDOh1o",
+            "playlist" : "https://www.youtube.com/watch?v=QrqPjFyM0wg&list=PLBnJv6rImVe8wnIunQEiaJzsmu-HwXBZm&ab_channel=U2-Topic"
         },
         {
             "album" : "Songs of Innocence (2015)",
-            "img" : "u2_5.jpg",
+            "img" : "u2_5_2.jpg",
             "title" : "Song For Someone",
-            "link" : "https://www.youtube.com/embed/RFjcd_d2PhY"
+            "link" : "https://www.youtube.com/embed/RFjcd_d2PhY",
+            "playlist" : "https://www.youtube.com/watch?v=vK2MLKItTnE&list=PLx0u2Yj2r4rBXSGRnmazYoa_Ehy5bh4F9&ab_channel=MateoVargas"
         }
     ]
 }
