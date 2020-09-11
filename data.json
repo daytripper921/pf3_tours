@@ -1,31 +1,34 @@
 {
     "data" : [
         {
-            "title" : "Boy (1980)",
+            "album" : "Boy (1980)",
             "img" : "u2_1.jpg",
-            "data" : "2020-07-25",
-            "list1" : "list111",
-            "list2" : "list222"
+            "title" : "I Will Follow",
+            "link" : "https://www.youtube.com/embed/g2BqLlVHlWA"
         },
         {
-            "title" : "The Joshua Tree (1987)",
+            "album" : "The Joshua Tree (1987)",
             "img" : "u2_2.png",
-            "data" : "2020-07-25"
+            "title" : "With Or Without You",
+            "link" : "https://www.youtube.com/embed/ujNeHIo7oTE"
         },
         {
-            "title" : "Achtung Baby (1991)",
+            "album" : "Achtung Baby (1991)",
             "img" : "u2_3.png",
-            "data" : "2020-07-25"
+            "title" : "One",
+            "link" : "https://www.youtube.com/embed/ftjEcrrf7r0"
         },
         {
-            "title" : "All That You Can't Leave Behind (2000)",
+            "album" : "All That You Can't Leave Behind (2000)",
             "img" : "u2_4.jpg",
-            "data" : "2020-07-25"
+            "title" : "Beautiful Day",
+            "link" : "https://www.youtube.com/embed/co6WMzDOh1o"
         },
         {
-            "title" : "Songs of Innocence (2015)",
+            "album" : "Songs of Innocence (2015)",
             "img" : "u2_5.jpg",
-            "data" : "2020-07-25"
+            "title" : "Song For Someone",
+            "link" : "https://www.youtube.com/embed/RFjcd_d2PhY"
         }
     ]
 }
