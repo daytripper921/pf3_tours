@@ -1,9 +1,5 @@
 $(document).ready(function(){
-
-    var link0 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/ftjEcrrf7r0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-    var link1 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/SHzU9lp1aqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
-    
-
+  
     $('.open').on('click', function(e){
         //e.preventDefault();
 
@@ -32,7 +28,7 @@ $(document).ready(function(){
                     $('<h2>').text(arr[i].album),                    
                     $('<span>').text('Most Popular :'),                    
                     $('<h3>').text(arr[i].title),
-                    $('<div class="vid">').html(`<iframe width="560" height="315" src=${arr[i].link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`),
+                    $('<div class="vid">').html(`<iframe width="100%" height="300" src=${arr[i].link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`),
                     $('<a>').attr('href', arr[i].playlist).text('Listen to Full Album!')
                     
                 )
