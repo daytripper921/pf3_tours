@@ -215,7 +215,12 @@ a {
     height: 80%;
     right: 0%;
     position: absolute;
-    top: 100%; }
+    top: 100%;
+    padding: 0px;
+    padding-top: 30px; }
+    #visual .content .close {
+      top: 20px;
+      right: 20px; }
     #visual .content.on {
       top: 20%; }
     #visual .content .inner {
@@ -229,16 +234,8 @@ a {
     font: bold 25px/1 'Cairo'; }
   #visual > ul > li .txt h2 {
     font: bold 30px/1 'Cairo'; }
-  #visual .content .close {
-    display: block;
-    font: 19px/1 'Shadows Into Light';
-    color: #fff;
-    position: absolute;
-    top: 30px;
-    right: 30px; }
   #visual .content .inner {
-    width: 95%;
-    padding-top: 0px; }
+    padding-top: 20px; }
     #visual .content .inner h2 {
       font: bold 30px/1 'Cairo';
       color: #fff;
