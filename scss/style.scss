@@ -5,6 +5,7 @@
 * {margin: 0; padding: 0;}
 ul, li, ol {list-style: none;}
 a {text-decoration: none;}
+.hidden {position: absolute; text-indent: -9999999px; opacity: 0; visibility: hidden; display: none;}
 
 $num : 5;
 $imgs : (1:"u2_1.jpg", 2:"u2_2.png", 3:"u2_3.png", 4:"u2_4.jpg", 5:"u2_5.jpg");
